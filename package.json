@@ -6,10 +6,11 @@
     "dev": "next dev",
     "build": "next build",
     "deploy": "gh-pages -d out",
-    "start": "npx serve@latest out",
+    "start": "next start",
     "lint": "eslint"
   },
   "dependencies": {
+    "@netlify/plugin-nextjs": "^5.11.6",
     "@next/font": "^14.2.15",
     "@react-three/drei": "^9.105.4",
     "@react-three/fiber": "^8.16.2",
