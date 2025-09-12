@@ -1,10 +1,9 @@
 "use client";
-import React, { useState } from "react";
+import React from "react";
 import {
   motion,
   AnimatePresence,
   useScroll,
-  useMotionValueEvent,
 } from "motion/react";
 import { cn } from "@/lib/utils";
 
