@@ -32,7 +32,7 @@ export default function Hero() {
                 <TextGenerateEffect
                     words={animatedText}
                     duration={3}
-                    className="text-center text-[40px] md:text-5xl lg:text-6xl"/>
+                    className="text-center text-[40px] md:text-5xl lg:text-6xl p-4"/>
             </div>
         </div>
 

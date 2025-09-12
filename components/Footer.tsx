@@ -4,7 +4,7 @@ const Footer = () => {
   return (
     <footer className="w-full pt-20 pb-10" id="blogs">
         <div className="flex flex-col items-center">
-            <h1 className="text-4xl font-bold lg:max-w-[45vw] text-yellow-100">
+            <h1 className="text-5xl font-bold lg:max-w-[45vw] text-yellow-100">
                 My <span className="text-purple">Blogs</span>
             </h1>
             <p className="text-white-200 md:mt-10 my-5 text-center">

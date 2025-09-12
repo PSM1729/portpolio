@@ -8,7 +8,7 @@ export default function About() {
     const { email, linkedin, github } = contact;
 
     return (
-        <section id="about" className="h-screen flex items-center justify-center">
+        <section id="about" className="h-fit mb-20 flex items-center justify-center">
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 justify-items-center">
                 <WobbleCard
                 containerClassName="col-span-1 md:col-span-2 text-white rounded-2xl"
